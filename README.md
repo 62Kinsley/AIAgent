@@ -1,37 +1,28 @@
-# AIAgent
+# AI Agent Course — Mind Map
 
-mindmap
-  root((AI Agent Mastery))
-    1. Agent Fundamentals
-      AI General Literacy
-      LangChain Components
-      Agent Development
-      LangSmith Monitoring & Debugging
-      ::icon(fa fa-rocket) Project: Private Chef Assistant
-    2. Advanced Agent Concepts
-      Core Architecture
-        Runtime
-        Middleware
-        MCP Protocol
-      Scaling Applications
-        Multi-Agent Systems
-        Agent-Chat-UI
-      ::icon(fa fa-envelope) Project: Email Assistant
-      ::icon(fa fa-heart) Project: Wedding Assistant
-    3. RAG Agent
-      Technical Foundations
-        RAG Principles
-        Milvus Vector Database
-      Optimization & Evaluation
-        Query Optimization
-        Knowledge Retrieval Optimization
-        System Evaluation
-      ::icon(fa fa-book) Project: Personal Knowledge Base
-    4. LangGraph
-      Core Mechanisms
-        Basic Concepts
-        Flow Control
-        Memory Management
-      Engineering Practice
-        Common Workflows
-      ::icon(fa fa-robot) Project: Personal AI Assistant
+![Mind Map](mindmap.svg)
+
+## Tech Stack
+
+| Module | Key Technologies | Level |
+|--------|-----------------|-------|
+| Fundamentals | LangChain · LangSmith | ★ Beginner |
+| Advanced Agent | MCP · Multi-Agent · Runtime | ★★ Intermediate |
+| RAG Agent | Milvus · Vector Search · Evaluation | ★★ Intermediate |
+| LangGraph | State Graph · Workflow Orchestration | ★★★ Advanced |
+
+## Learning Path
+
+```
+Fundamentals → Engineering → Knowledge Retrieval → Workflow Orchestration → Full Project
+```
+
+## Projects
+
+| Project | Module | Description |
+|---------|--------|-------------|
+| Personal Chef Assistant | Fundamentals | Tool-calling Agent |
+| Email Assistant | Advanced Agent | Multi-Agent workflow |
+| Wedding Planner Assistant | Advanced Agent | Business scenario Agent |
+| Personal Knowledge Base | RAG Agent | Vector retrieval system |
+| Personal AI Assistant | LangGraph | Full stateful Agent |

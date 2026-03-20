@@ -1,0 +1,146 @@
+<svg width="100%" viewBox="0 0 680 620" xmlns="http://www.w3.org/2000/svg">
+<defs>
+  <style>
+    .bg { fill: #F7F6F2; }
+    .root-fill { fill: #3C3489; }
+    .root-txt { fill: #EEEDFE; font-family: sans-serif; font-size: 14px; font-weight: 500; }
+    .m1-fill { fill: #E1F5EE; stroke: #0F6E56; }
+    .m1-txt  { fill: #085041; font-family: sans-serif; font-size: 13px; font-weight: 500; }
+    .m2-fill { fill: #FAECE7; stroke: #993C1D; }
+    .m2-txt  { fill: #712B13; font-family: sans-serif; font-size: 13px; font-weight: 500; }
+    .m3-fill { fill: #E6F1FB; stroke: #185FA5; }
+    .m3-txt  { fill: #0C447C; font-family: sans-serif; font-size: 13px; font-weight: 500; }
+    .m4-fill { fill: #FAEEDA; stroke: #854F0B; }
+    .m4-txt  { fill: #633806; font-family: sans-serif; font-size: 13px; font-weight: 500; }
+    .chip-fill { fill: #FFFFFF; }
+    .chip-txt  { fill: #444441; font-family: sans-serif; font-size: 11px; }
+    .proj-fill { fill: #EAF3DE; stroke: #3B6D11; }
+    .proj-txt  { fill: #27500A; font-family: sans-serif; font-size: 11px; font-weight: 500; }
+    .conn { fill: none; stroke-width: 1; }
+    .c1 { stroke: #1D9E75; }
+    .c2 { stroke: #D85A30; }
+    .c3 { stroke: #378ADD; }
+    .c4 { stroke: #BA7517; }
+    .title-txt { fill: #2C2C2A; font-family: sans-serif; font-size: 11px; letter-spacing: 0.08em; }
+  </style>
+</defs>
+
+<rect width="680" height="620" rx="16" class="bg"/>
+
+<text class="title-txt" x="340" y="28" text-anchor="middle">AI AGENT COURSE — MIND MAP</text>
+
+<!-- Root -->
+<rect x="260" y="44" width="160" height="44" rx="22" class="root-fill"/>
+<text class="root-txt" x="340" y="71" text-anchor="middle" dominant-baseline="central">AI Agent Course</text>
+
+<!-- Branch lines root to modules -->
+<line x1="290" y1="88" x2="138" y2="168" class="conn c1"/>
+<line x1="315" y1="88" x2="247" y2="168" class="conn c2"/>
+<line x1="365" y1="88" x2="435" y2="168" class="conn c3"/>
+<line x1="390" y1="88" x2="544" y2="168" class="conn c4"/>
+
+<!-- MODULE 1 -->
+<rect x="60" y="168" width="156" height="42" rx="8" class="m1-fill" stroke-width="0.5"/>
+<text class="m1-txt" x="138" y="189" text-anchor="middle" dominant-baseline="central">Module 1 · Fundamentals</text>
+
+<line x1="90"  y1="210" x2="72"  y2="248" class="conn c1"/>
+<line x1="110" y1="210" x2="100" y2="248" class="conn c1"/>
+<line x1="138" y1="210" x2="138" y2="248" class="conn c1"/>
+<line x1="166" y1="210" x2="176" y2="248" class="conn c1"/>
+
+<rect x="40"  y="248" width="88" height="26" rx="5" class="chip-fill" stroke="#D3D1C7" stroke-width="0.5"/>
+<text class="chip-txt" x="84"  y="261" text-anchor="middle" dominant-baseline="central">AI Basics</text>
+<rect x="136" y="248" width="110" height="26" rx="5" class="chip-fill" stroke="#D3D1C7" stroke-width="0.5"/>
+<text class="chip-txt" x="191" y="261" text-anchor="middle" dominant-baseline="central">LangChain components</text>
+<rect x="40"  y="282" width="110" height="26" rx="5" class="chip-fill" stroke="#D3D1C7" stroke-width="0.5"/>
+<text class="chip-txt" x="95"  y="295" text-anchor="middle" dominant-baseline="central">Agent development</text>
+<rect x="158" y="282" width="110" height="26" rx="5" class="chip-fill" stroke="#D3D1C7" stroke-width="0.5"/>
+<text class="chip-txt" x="213" y="295" text-anchor="middle" dominant-baseline="central">LangSmith monitoring</text>
+
+<line x1="113" y1="308" x2="113" y2="326" class="conn c1"/>
+<rect x="52"  y="326" width="122" height="24" rx="5" class="proj-fill" stroke-width="0.5"/>
+<text class="proj-txt" x="113" y="338" text-anchor="middle" dominant-baseline="central">Personal chef assistant</text>
+
+<!-- MODULE 2 -->
+<rect x="170" y="168" width="156" height="42" rx="8" class="m2-fill" stroke-width="0.5"/>
+<text class="m2-txt" x="248" y="189" text-anchor="middle" dominant-baseline="central">Module 2 · Advanced</text>
+
+<line x1="196" y1="210" x2="174" y2="388" class="conn c2"/>
+<line x1="220" y1="210" x2="210" y2="388" class="conn c2"/>
+<line x1="248" y1="210" x2="248" y2="388" class="conn c2"/>
+<line x1="276" y1="210" x2="284" y2="388" class="conn c2"/>
+<line x1="300" y1="210" x2="316" y2="388" class="conn c2"/>
+
+<rect x="136" y="388" width="76" height="26" rx="5" class="chip-fill" stroke="#D3D1C7" stroke-width="0.5"/>
+<text class="chip-txt" x="174" y="401" text-anchor="middle" dominant-baseline="central">Runtime</text>
+<rect x="220" y="388" width="84" height="26" rx="5" class="chip-fill" stroke="#D3D1C7" stroke-width="0.5"/>
+<text class="chip-txt" x="262" y="401" text-anchor="middle" dominant-baseline="central">Middleware</text>
+<rect x="136" y="422" width="76" height="26" rx="5" class="chip-fill" stroke="#D3D1C7" stroke-width="0.5"/>
+<text class="chip-txt" x="174" y="435" text-anchor="middle" dominant-baseline="central">MCP protocol</text>
+<rect x="220" y="422" width="100" height="26" rx="5" class="chip-fill" stroke="#D3D1C7" stroke-width="0.5"/>
+<text class="chip-txt" x="270" y="435" text-anchor="middle" dominant-baseline="central">Multi-agent systems</text>
+<rect x="136" y="456" width="96" height="26" rx="5" class="chip-fill" stroke="#D3D1C7" stroke-width="0.5"/>
+<text class="chip-txt" x="184" y="469" text-anchor="middle" dominant-baseline="central">Agent Chat UI</text>
+
+<line x1="212" y1="482" x2="193" y2="500" class="conn c2"/>
+<line x1="212" y1="482" x2="243" y2="500" class="conn c2"/>
+<rect x="134" y="500" width="114" height="24" rx="5" class="proj-fill" stroke-width="0.5"/>
+<text class="proj-txt" x="191" y="512" text-anchor="middle" dominant-baseline="central">Email assistant</text>
+<rect x="256" y="500" width="130" height="24" rx="5" class="proj-fill" stroke-width="0.5"/>
+<text class="proj-txt" x="321" y="512" text-anchor="middle" dominant-baseline="central">Wedding planner asst.</text>
+
+<!-- MODULE 3 -->
+<rect x="352" y="168" width="156" height="42" rx="8" class="m3-fill" stroke-width="0.5"/>
+<text class="m3-txt" x="430" y="189" text-anchor="middle" dominant-baseline="central">Module 3 · RAG Agent</text>
+
+<line x1="380" y1="210" x2="358" y2="248" class="conn c3"/>
+<line x1="405" y1="210" x2="394" y2="248" class="conn c3"/>
+<line x1="430" y1="210" x2="430" y2="248" class="conn c3"/>
+<line x1="455" y1="210" x2="466" y2="248" class="conn c3"/>
+<line x1="480" y1="210" x2="502" y2="248" class="conn c3"/>
+
+<rect x="322" y="248" width="88" height="26" rx="5" class="chip-fill" stroke="#D3D1C7" stroke-width="0.5"/>
+<text class="chip-txt" x="366" y="261" text-anchor="middle" dominant-baseline="central">RAG principles</text>
+<rect x="418" y="248" width="92" height="26" rx="5" class="chip-fill" stroke="#D3D1C7" stroke-width="0.5"/>
+<text class="chip-txt" x="464" y="261" text-anchor="middle" dominant-baseline="central">Milvus vector DB</text>
+<rect x="322" y="282" width="96" height="26" rx="5" class="chip-fill" stroke="#D3D1C7" stroke-width="0.5"/>
+<text class="chip-txt" x="370" y="295" text-anchor="middle" dominant-baseline="central">Query optimization</text>
+<rect x="426" y="282" width="110" height="26" rx="5" class="chip-fill" stroke="#D3D1C7" stroke-width="0.5"/>
+<text class="chip-txt" x="481" y="295" text-anchor="middle" dominant-baseline="central">Retrieval tuning</text>
+<rect x="322" y="316" width="96" height="26" rx="5" class="chip-fill" stroke="#D3D1C7" stroke-width="0.5"/>
+<text class="chip-txt" x="370" y="329" text-anchor="middle" dominant-baseline="central">System evaluation</text>
+
+<line x1="430" y1="342" x2="430" y2="360" class="conn c3"/>
+<rect x="360" y="360" width="140" height="24" rx="5" class="proj-fill" stroke-width="0.5"/>
+<text class="proj-txt" x="430" y="372" text-anchor="middle" dominant-baseline="central">Personal knowledge base</text>
+
+<!-- MODULE 4 -->
+<rect x="464" y="168" width="156" height="42" rx="8" class="m4-fill" stroke-width="0.5"/>
+<text class="m4-txt" x="542" y="189" text-anchor="middle" dominant-baseline="central">Module 4 · LangGraph</text>
+
+<line x1="492" y1="210" x2="470" y2="388" class="conn c4"/>
+<line x1="516" y1="210" x2="508" y2="388" class="conn c4"/>
+<line x1="542" y1="210" x2="546" y2="388" class="conn c4"/>
+<line x1="568" y1="210" x2="582" y2="388" class="conn c4"/>
+
+<rect x="432" y="388" width="88" height="26" rx="5" class="chip-fill" stroke="#D3D1C7" stroke-width="0.5"/>
+<text class="chip-txt" x="476" y="401" text-anchor="middle" dominant-baseline="central">Core concepts</text>
+<rect x="528" y="388" width="88" height="26" rx="5" class="chip-fill" stroke="#D3D1C7" stroke-width="0.5"/>
+<text class="chip-txt" x="572" y="401" text-anchor="middle" dominant-baseline="central">Flow control</text>
+<rect x="432" y="422" width="100" height="26" rx="5" class="chip-fill" stroke="#D3D1C7" stroke-width="0.5"/>
+<text class="chip-txt" x="482" y="435" text-anchor="middle" dominant-baseline="central">Memory management</text>
+<rect x="540" y="422" width="100" height="26" rx="5" class="chip-fill" stroke="#D3D1C7" stroke-width="0.5"/>
+<text class="chip-txt" x="590" y="435" text-anchor="middle" dominant-baseline="central">Common workflows</text>
+
+<line x1="542" y1="448" x2="542" y2="466" class="conn c4"/>
+<rect x="468" y="466" width="148" height="24" rx="5" class="proj-fill" stroke-width="0.5"/>
+<text class="proj-txt" x="542" y="478" text-anchor="middle" dominant-baseline="central">Personal AI assistant</text>
+
+<!-- Legend -->
+<rect x="40" y="564" width="10" height="10" rx="2" fill="#E1F5EE" stroke="#0F6E56" stroke-width="0.5"/>
+<text class="chip-txt" x="56" y="569" dominant-baseline="central">Module topic</text>
+<rect x="160" y="564" width="10" height="10" rx="2" class="proj-fill" stroke-width="0.5"/>
+<text class="chip-txt" x="176" y="569" dominant-baseline="central">Final project</text>
+<rect x="276" y="564" width="10" height="10" rx="2" fill="#3C3489"/>
+<text class="chip-txt" x="292" y="569" dominant-baseline="central">Course root</text>
+</svg>
